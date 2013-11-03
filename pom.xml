@@ -7,31 +7,30 @@
 	<version>3</version>
 	<dependencies>
 		<dependency>
-			<groupId>org.slf4j</groupId>
-			<artifactId>slf4j-api</artifactId>
-			<version>1.6.0</version>
+		  <groupId>org.slf4j</groupId>
+		  <artifactId>slf4j-api</artifactId>
+		  <version>1.6.0</version>
 		</dependency>
 		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>4.8</version>
-			
+		  <groupId>junit</groupId>
+		  <artifactId>junit</artifactId>
+		  <version>4.8</version>
 		</dependency>
-        <dependency>
-            <groupId>org.eclipse.jetty</groupId>
-            <artifactId>jetty-servlet</artifactId>
-            <version>7.4.0.v20110414</version>
-        </dependency>
+                <dependency>
+                   <groupId>org.eclipse.jetty</groupId>
+                   <artifactId>jetty-servlet</artifactId>
+                   <version>7.4.0.v20110414</version>
+                </dependency>
 		<dependency>
-			<groupId>args4j</groupId>
-			<artifactId>args4j</artifactId>
-			<version>2.0.16</version>
+		   <groupId>args4j</groupId>
+		   <artifactId>args4j</artifactId>
+		   <version>2.0.16</version>
 		</dependency>
-        <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>servlet-api</artifactId>
-            <version>2.5</version>
-            <scope>provided</scope>
-        </dependency>
+	       <dependency>
+                 <groupId>javax.servlet</groupId>
+                 <artifactId>servlet-api</artifactId>
+                 <version>2.5</version>
+                 <scope>provided</scope>
+               </dependency>
 	</dependencies>
 </project>
