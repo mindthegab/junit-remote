@@ -5,7 +5,7 @@
     <artifactId>junit-remote</artifactId>
     <packaging>jar</packaging>
     <name>Remote JUnit runner</name>
-    <version>3</version>
+    <version>4-SNAPSHOT</version>
     <dependencies>
         <dependency>
             <groupId>org.slf4j</groupId>
@@ -34,4 +34,10 @@
             <scope>provided</scope>
         </dependency>
     </dependencies>
+    <distributionManagement>
+       <repository>
+          <id>alfresco-internal</id>
+          <url>https://artifacts.alfresco.com/nexus/content/repositories/thirdparty</url>
+       </repository>
+    </distributionManagement>
 </project>
